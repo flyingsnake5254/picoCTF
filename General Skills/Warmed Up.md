@@ -23,11 +23,11 @@ base 16 表示法對應成 base 10 表示法如下：
 | E | 14 |
 | F | 15 |
 
-本題 base 16 轉成 base 10 的計算如下：
-base 16 的 `D` = base 10 的 `13`
-16<sup>0</sup> x 13 + 16<sup>1</sup> x 3
-= 48 + 13
-= 61
+本題 base 16 轉成 base 10 的計算如下：  
+base 16 的 `D` = base 10 的 `13`  
+16<sup>0</sup> x 13 + 16<sup>1</sup> x 3  
+= 48 + 13  
+= 61  
 所以本題 FLAG 
 <!-- flag -->
 ```text
