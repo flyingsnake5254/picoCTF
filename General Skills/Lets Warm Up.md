@@ -1,5 +1,5 @@
 # 解題
-<span style="color:red">0x70</span> 的十進位是 <span style="color:red">112</span>，而 112 對應的 ascii 字元是 <span style="color:red">p</span>，所以本題答案是
+`0x70` 的十進位是 `112`，而 112 對應的 ascii 字元是 `p`，所以本題答案是
 ```text
 picoCTF{p}
 ```
