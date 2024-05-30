@@ -5,7 +5,7 @@ Using netcat (nc) is going to be pretty important. Can you connect to jupiter.ch
 # netcat
 是一個網路工具，可以建立 connect 或是傳輸檔案等。kali linux 內建就有這個工具。  
 使用方式可以輸入 `nc -h` 指令查看  
-![nc -h](..\assets\whats_a_net_cat__1.png)
+![nc -h](\..\assets\whats_a_net_cat__1.png)
 ## 建立連接
 ### 語法  
 ```bash
@@ -18,7 +18,7 @@ nc [options] [hostname] [port]
 nc jupiter.challenges.picoctf.org 41120
 ```
 收到回傳的FLAG  
-![nc -h](..\assets\whats_a_net_cat__2.png)
+![flag](\..\assets\whats_a_net_cat__2.png)
 <!-- flag -->
 所以本題 FLAG 
 ```text
