@@ -17,12 +17,3 @@ vim warm
 ```text
 picoCTF{b1scu1ts_4nd_gr4vy_d6969390}
 ```
-
-# 補充
-```python
-print(0x3D)
-```
-輸出
-```text
-61
-```
