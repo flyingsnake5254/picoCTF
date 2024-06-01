@@ -16,12 +16,3 @@ unzip Addadshashanammu.zip
 ```text
 picoCTF{l3v3l_up!_t4k3_4_r35t!_f3553887}
 ```
-
-# 補充
-```python
-print(0x3D)
-```
-輸出
-```text
-61
-```
