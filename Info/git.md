@@ -240,3 +240,17 @@ git log --since=2021-01-01 --until=2021-12-31
 ```
 
 # 查看差異
+- 顯示特定文件的差異
+```bash
+git diff <file_name>
+```
+
+- 顯示兩個 commit 之間的差異
+```bash
+git diff <commit1> <commit2>
+```
+
+- 顯示簡短摘要
+```bash
+git diff --stat
+```
