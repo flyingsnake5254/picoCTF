@@ -45,5 +45,5 @@ Connection to atlas.picoctf.net closed.
 picoCTF{g00d_gu355_2e90d29b}
 ```
 
-# 解題相關知識
-[ssh 指令使用說明](../Info/ssh.md)
+# 相關指令
+[ssh](../Info/ssh.md)
