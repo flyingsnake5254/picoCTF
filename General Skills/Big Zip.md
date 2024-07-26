@@ -21,3 +21,5 @@ big-zip-files/folder_pmbymkjcya/folder_cawigcwvgv/folder_ltdayfmktr/folder_fnpfc
 ```text
 picoCTF{gr3p_15_m4g1c_ef8790dc}
 ```
+
+# 相關指令

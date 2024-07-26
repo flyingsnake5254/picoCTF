@@ -122,3 +122,5 @@ The flag is: picoCTF{b1tw^3se_0p3eR@tI0n_su33essFuL_1367e2c6}
 ```text
 picoCTF{b1tw^3se_0p3eR@tI0n_su33essFuL_1367e2c6}
 ```
+# 相關指令
+[netcat](../Info/netcat.md)

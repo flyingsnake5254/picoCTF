@@ -67,3 +67,6 @@ picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_9b59b35c}
 ```text
 picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_9b59b35c}
 ```
+
+# 相關指令
+[base64](../Info/base64.md)
