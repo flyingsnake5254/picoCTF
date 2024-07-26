@@ -58,3 +58,6 @@ print("w0rk_e4b79efb}")
 ```text
 picoCTF{t3@mw0rk_m@k3s_th3_dr3@m_w0rk_e4b79efb}
 ```
+
+# 相關指令
+[git](../Info/git.md)

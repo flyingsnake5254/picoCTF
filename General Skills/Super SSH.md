@@ -30,3 +30,5 @@ Connection to titan.picoctf.net closed.
 ```text
 picoCTF{s3cur3_c0nn3ct10n_5d09a462}
 ```
+# 相關指令
+[ssh](../Info/ssh.md)

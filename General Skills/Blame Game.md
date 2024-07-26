@@ -17,3 +17,6 @@ Author: picoCTF{@sk_th3_1nt3rn_cfca95b2} <ops@picoctf.com>
 ```text
 picoCTF{@sk_th3_1nt3rn_cfca95b2} 
 ```
+
+# 相關指令
+[git](../Info/git.md)

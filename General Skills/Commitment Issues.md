@@ -44,3 +44,6 @@ index d552d1e..ed59373 100644
 ```text
 picoCTF{s@n1t1z3_9539be6b}
 ```
+
+# 相關指令
+[git](../Info/git.md)
