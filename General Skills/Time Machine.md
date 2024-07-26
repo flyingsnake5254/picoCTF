@@ -20,3 +20,6 @@ Date:   Tue Mar 12 00:07:22 2024 +0000
 ```text
 picoCTF{t1m3m@ch1n3_186cd7d7}
 ```
+
+# 相關指令
+[git](../Info/git.md)
