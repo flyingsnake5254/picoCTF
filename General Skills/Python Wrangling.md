@@ -30,3 +30,9 @@ Usage: ende.py (-e/-d) [file]
 Please enter the password:6008014f6008014f6008014f6008014f
 picoCTF{4p0110_1n_7h3_h0us3_6008014f}
 ```
+
+<!-- flag -->
+所以本題 FLAG 
+```text
+picoCTF{4p0110_1n_7h3_h0us3_6008014f}
+```

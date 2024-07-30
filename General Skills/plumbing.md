@@ -45,3 +45,7 @@ nc jupiter.challenges.picoctf.org 4427 | grep "picoCTF"
 ```text
 picoCTF{digital_plumb3r_5ea1fbd7}
 ```
+
+# 相關指令 
+[netcat](../Info/netcat.md)  
+[grep](../Info/grep.md)  
