@@ -23,3 +23,4 @@ picoCTF{gr3p_15_m4g1c_ef8790dc}
 ```
 
 # 相關指令
+[grep](../Info/grep.md)

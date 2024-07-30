@@ -20,3 +20,7 @@ files/adequate_books/more_books/.secret/deeper_secrets/deepest_secrets/uber-secr
 ```text
 picoCTF{f1nd_15_f457_ab443fd1}
 ```
+
+
+# 相關指令
+[grep](../Info/grep.md)
