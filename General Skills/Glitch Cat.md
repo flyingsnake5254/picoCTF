@@ -32,3 +32,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```text
 picoCTF{gl17ch_m3_n07_bda68f75}
 ```
+
+# 相關指令
+[netcat](../Info/netcat.md)  

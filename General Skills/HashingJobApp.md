@@ -31,3 +31,6 @@ Answer:
 ```text
 picoCTF{4ppl1c4710n_r3c31v3d_674c1de2}
 ```
+
+# 相關指令
+[md5sum](../Info/md5sum.md)  
