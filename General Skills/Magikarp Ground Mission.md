@@ -65,3 +65,6 @@ ctf-player@pico-chall$ cat 3of3.flag.txt
 ```text
 picoCTF{xxsh_0ut_0f_\/\/4t3r_1118a9a4}
 ```
+
+# 相關指令
+[ssh](../Info/ssh.md)  
