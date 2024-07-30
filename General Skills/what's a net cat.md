@@ -24,3 +24,6 @@ nc jupiter.challenges.picoctf.org 41120
 ```text
 picoCTF{nEtCat_Mast3ry_3214be47}
 ```
+
+# 相關指令
+[netcat](../Info/netcat.md)  
