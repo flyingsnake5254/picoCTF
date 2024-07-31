@@ -1,7 +1,6 @@
 # Description
-```text
 This file has a flag in plain sight (aka "in-the-clear"). Download flag.
-```
+
 # 解題
 下載 flag 後，直接用文字編輯器打開即可看到 flag，或是使用
 ```bash

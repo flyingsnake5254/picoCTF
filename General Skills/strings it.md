@@ -1,7 +1,7 @@
 # Description
-```text
 Can you find the flag in file without running it?
-```
+
+
 # 解題
 先下載該 file  
 然後直接使用文字編輯器打開  

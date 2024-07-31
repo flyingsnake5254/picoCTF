@@ -1,12 +1,5 @@
 # Description
-```text
-How well can you perfom basic binary operations?
-Additional details will be available after launching your challenge instance.
-```
-start instance
-```text
 How well can you perfom basic binary operations? Start searching for the flag here nc titan.picoctf.net 62292
-```
 
 # 解題
 先使用 `netcat` 連線，會出一些二進位計算題目，完成計算後就可以拿到 flag

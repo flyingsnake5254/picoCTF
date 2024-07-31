@@ -1,7 +1,6 @@
 # Description
-```text
 What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
-```
+
 # 解題
 `bDNhcm5fdGgzX3IwcDM1` 看起來像是明文經過 base64 加密後的密文，故使用 base64 decode  
 可以直接去 [base64 encode decode 網站](https://www.base64decode.org/ "base64 encode decode 網站")  

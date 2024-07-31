@@ -1,17 +1,10 @@
 # Description
-```text
-How to automate tasks to run at intervals on linux servers?
-Additional details will be available after launching your challenge instance.
-```
-start instance
-```text
 How to automate tasks to run at intervals on linux servers? Use ssh to connect to this server:
 
 Server: saturn.picoctf.net
 Port: 49447
 Username: picoplayer 
 Password: ENAFb6zfzn
-```
 
 # 解題
 先使用 `ssh` 連線

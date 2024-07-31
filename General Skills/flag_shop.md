@@ -1,7 +1,6 @@
 # Description
-```text
 There's a flag shop selling stuff, can you buy a flag? Source. Connect with nc jupiter.challenges.picoctf.org 9745.
-```
+
 # 解題
 先利用 `netcat` 連接
 ```bash

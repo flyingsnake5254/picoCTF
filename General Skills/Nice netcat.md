@@ -1,7 +1,6 @@
 # Description
-```text
 There is a nice program that you can talk to by using this command in a shell: $ nc mercury.picoctf.net 22342, but it doesn't speak English...
-```
+
 
 # 解題
 先使用 `netcat` 連線，可以看到一堆數字，推測是 ASCII

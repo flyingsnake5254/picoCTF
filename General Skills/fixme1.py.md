@@ -1,7 +1,5 @@
 # Description
-```text
 Fix the syntax error in this Python script to print the flag. Download Python script
-```
 
 # 解題
 使用 `python fixme1.py` 出現錯誤

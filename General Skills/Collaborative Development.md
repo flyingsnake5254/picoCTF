@@ -1,9 +1,8 @@
 # Description
-```text
 My team has been working very hard on new features for our flag printing program! I wonder how they'll work together?
 You can download the challenge files here:
 challenge.zip
-```
+
 # 解題
 下載檔案解壓縮後，使用 `ls` 發現 `flag.py`，使用 `cat` 輸出內容，並無發現 flag，使用 `git branch` 發現有多個分支
 ```bash            

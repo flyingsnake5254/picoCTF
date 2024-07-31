@@ -1,7 +1,5 @@
 # Description
-```text
 Using tabcomplete in the Terminal will add years to your life, esp. when dealing with long rambling directory structures and filenames: Addadshashanammu.zip
-```
 # 解題
 這題只是要讓人練習在 terminal 時，使用 `tab` 鍵，自動提示或完成檔名。
 下載檔案完後，使用 `unzip` 解壓縮，強烈建議使用 tab 輔助輸入

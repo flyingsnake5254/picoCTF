@@ -1,7 +1,6 @@
 # Description
-```text
 If I told you a word started with 0x70 in hexadecimal, what would it start with in ASCII?
-```
+
 # 解題
 `0x70` 的十進位是 `112`，而 112 對應的 ascii 字元是 `p`，所以本題答案是
 ```text

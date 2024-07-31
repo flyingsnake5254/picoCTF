@@ -1,7 +1,6 @@
 # Description
-```text
 Can you invoke help flags for a tool or binary? This program has extraordinarily helpful information...
-```
+
 # 解題
 下載檔案後，直接使用 vim 打開，並搜尋 `picoCTF` 關鍵字，即可看到 flag
 ```bash

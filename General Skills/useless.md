@@ -1,18 +1,10 @@
 # Description
-```text
-There's an interesting script in the user's home directory
-Additional details will be available after launching your challenge instance.
-```
-start instance
-```text
 There's an interesting script in the user's home directory The work computer is running SSH. We've been given a script which performs some basic calculations, explore the script and find a flag.
 
 Hostname: saturn.picoctf.net
 Port:     52906
 Username: picoplayer
 Password: password
-
-```
 
 # 解題
 先使用 `ssh` 連線，登入後發現有葛檔案 `useless`，使用 `man` 查看即可得到 flag

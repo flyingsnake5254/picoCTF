@@ -1,7 +1,6 @@
 # Description
-```text
 I wrote you a song. Put it in the picoCTF{} flag format.
-```
+
 # 解題
 將 song 下載後，看起來像歌詞，如下：
 ```text

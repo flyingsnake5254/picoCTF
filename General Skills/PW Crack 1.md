@@ -1,7 +1,6 @@
 # Description
-```text
 Can you crack the password to get the flag? Download the password checker here and you'll need the encrypted flag in the same directory too.
-```
+
 
 # 解題
 先執行 `python level1.py`，發現要求輸入密碼，先查看 level1.py，看到 line 19，得知密碼是 `691d`

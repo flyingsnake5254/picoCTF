@@ -1,7 +1,6 @@
 # Description
-```text
 What is 0x3D (base 16) in decimal (base 10)?
-```
+
 # 解題
 base 16 表示法對應成 base 10 表示法如下：
 | base 16 | base 10 |

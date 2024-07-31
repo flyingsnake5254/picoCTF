@@ -1,9 +1,7 @@
 # Description
-```text
 I accidentally wrote the flag down. Good thing I deleted it!
 You download the challenge files here:
 challenge.zip
-```
 
 # 解題 (方法1：vscode)
 可以使用任何可以檢視 git 工具，這裡使用 vscode。  

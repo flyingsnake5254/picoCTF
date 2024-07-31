@@ -1,13 +1,5 @@
 # Description
-```text
-Our flag printing service has started glitching!
-
-Additional details will be available after launching your challenge instance.
-```
-start instance 後
-```text
 Our flag printing service has started glitching! $ nc saturn.picoctf.net 54263
-```
 
 # 解題
 先使用 `netcat` 連線

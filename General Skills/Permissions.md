@@ -1,12 +1,5 @@
 # Description
-```text
-Can you read files in the root file?
-Additional details will be available after launching your challenge instance.
-```
-start instance
-```text
 Can you read files in the root file? The system admin has provisioned an account for you on the main server: ssh -p 60683 picoplayer@saturn.picoctf.net Password: yX-YQgX-vS Can you login and read the root file?
-```
 
 # 解題
 先使用 `ssh` 連線

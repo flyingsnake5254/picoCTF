@@ -1,13 +1,5 @@
 # Description
-```text
-Know of little and big endian? Source
-
-Additional details will be available after launching your challenge instance.
-```
-start instance
-```text
 Know of little and big endian? Source nc titan.picoctf.net 56675
-```
 
 # 解題
 使用 `netcat` 連線後，會給一個 Word 然後要輸出他的 Big Endian, Little Endian。撰寫一個 python 輸出字串的 Big Endian , Little Endian

@@ -1,10 +1,9 @@
 # Description
-```text
 Run the Python script code.py in the same directory as codebook.txt.
 
     Download code.py
     Download codebook.txt
-```
+    
 # 解題
 直接使用 `pyhon` 執行 `code.py` 
 ```bash

@@ -1,7 +1,6 @@
 # Description
-```text
 Sometimes you need to handle process data outside of a file. Can you find a way to keep the output from this program and search for the flag? Connect to jupiter.challenges.picoctf.org 4427.
-```
+
 # 解題(方法 1)
 先使用 `netcat` 連接看看  
 ```bash

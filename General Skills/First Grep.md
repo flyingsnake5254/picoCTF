@@ -1,7 +1,6 @@
 # Description
-```text
 Can you find the flag in file? This would be really tedious to look through manually, something tells me there is a better way.
-```
+
 # 解題 (方法 1)
 先下載該 file  
 然後直接使用文字編輯器打開  

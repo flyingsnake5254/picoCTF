@@ -1,13 +1,5 @@
 # Description
-```text
-If you want to hash with the best, beat this test!
-
-Additional details will be available after launching your challenge instance.
-```
-Start Instance 後
-```text
 If you want to hash with the best, beat this test! nc saturn.picoctf.net 58634
-```
 
 # 解題
 先使用 `netcat` 連線，結果要求使用 md5 加密 kilts，

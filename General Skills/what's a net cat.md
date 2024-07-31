@@ -1,7 +1,6 @@
 # Description
-```text
 Using netcat (nc) is going to be pretty important. Can you connect to jupiter.challenges.picoctf.org at port 41120 to get the flag?
-```
+
 # netcat
 是一個網路工具，可以建立 connect 或是傳輸檔案等。kali linux 內建就有這個工具。  
 使用方式可以輸入 `nc -h` 指令查看  

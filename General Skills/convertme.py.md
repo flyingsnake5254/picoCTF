@@ -1,7 +1,5 @@
 # Description
-```text
 Run the Python script and convert the given number from decimal to binary to get the flag. Download Python script
-```
 
 # 解題
 直接使用 `python convertme.py` 執行腳本，並回答問題答案就可以拿到 flag
