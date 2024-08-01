@@ -23,20 +23,26 @@ for i in range(7):
 13
 13
 ```
-故所求的 flag 可以透過 (encode + 13) mod 26 的方式求出，如下
+撰寫一隻 python 解這個差值 13 的凱薩密碼
 ```python
-
-encode = "cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_nSkgmDJE}"
-
-for i in encode:
-  if i == '{' or i == '}' or i == '_' or i == "'" or not i.isalpha():
-    print(i, end='')
-  elif ord(i) >= 97:
-    print(chr((ord(i) - 97 + 13) % 26 + 97), end='')
-  else:
-    print(chr((ord(i) - 65 + 13) % 26 + 65), end='')
+enc = "cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_nSkgmDJE}"
+dec = ''
+for char in enc:
+    # 判斷是否為英文字
+    if char.isalpha():
+        # 判斷大小寫
+        if ord(char) >= ord('a'):
+            dec += chr(ord('a') + ((ord(char) - ord('a') + 13) % 26))
+        else:
+            dec += chr(ord('A') + ((ord(char) - ord('A') + 13) % 26))
+    else:
+        dec += char
+print(dec)
 ```
-
+輸出
+```bash
+picoCTF{next_time_I'll_try_2_rounds_of_rot13_aFxtzQWR}
+```
 
 <!-- flag -->
 所以本題 FLAG 
