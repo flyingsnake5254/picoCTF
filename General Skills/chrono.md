@@ -24,3 +24,6 @@ picoplayer@challenge:/$ cat /etc/crontab
 ```text
 picoCTF{Sch3DUL7NG_T45K3_L1NUX_1d781160}
 ```
+
+# 相關學習資源
+[crontab](../Info/crontab.md)
