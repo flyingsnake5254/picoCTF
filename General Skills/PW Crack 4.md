@@ -4,7 +4,7 @@ Download the password checker here and you'll need the encrypted flag and the ha
 There are 100 potential passwords with only 1 being correct. You can find these by examining the password checker script.
 
 
-# 解題(方法1：鑽漏洞)
+# 解題(方法1：直接修改 `level4.py` )
 可以看到 `level4.py` 最後面有提供所有可能的密碼，故修改一下 code ，寫個 `for` 迴圈讓它自動嘗試所有可能的密碼，就可以輸出 flag 了。
 ```python
 import hashlib
@@ -72,12 +72,34 @@ Welcome back... your flag, user:
 picoCTF{fl45h_5pr1ng1ng_ae0fb77c}
 ```
 
-# 解題(方法2：本題真正希望解題者做的事)
-從 `level4.py` `line 21` 可以發現是使用 md5，接下來使用可以檢視 byte 檔案的 [網站](https://hexed.it/) 查看 `level4.hash.bin` 內容
+# 解題(方法2：檢視 bin，破解 hash)
+### 步驟一：檢視 bin
+使用可以檢視 byte 檔案的 [網站](https://hexed.it/) 或是使用 [xxd](../Info/xxd.md)、[hexdump](../Info/hexdump.md)、[bvi](../Info/bvi.md)查看 `level4.hash.bin` 內容
 ![byte](../assets/PW_Crack4__1.png)
-將這段內容
-將這段內容丟到 [hash 破解網站](https://crackstation.net/) 即可得到密碼 `973a`
-![pqssword](../assets/PW_Crack4__2.png)
+將 hash 儲存到 hash.txt
+```bash
+echo "1C92415F2FC08B0E8A0EBB6F3F21CDCC" > hash.txt
+```
+
+### 步驟二：破解 hash
+從 `level4.py` `line 21` 可以發現是使用 md5。可以使用 [hash 破解網站](https://crackstation.net/) 或是使用 [John The Ripper](../Info/John%20the%20Ripper.md) 破解，就可以拿到密碼 `973a`。
+```bash
+└─$ john --format=raw-md5 hash.txt 
+Using default input encoding: UTF-8
+Loaded 1 password hash (Raw-MD5 [MD5 256/256 AVX2 8x3])
+Warning: no OpenMP support for this hash type, consider --fork=2
+Proceeding with single, rules:Single
+Press 'q' or Ctrl-C to abort, almost any other key for status
+Almost done: Processing the remaining buffered candidate passwords, if any.
+Proceeding with wordlist:/usr/share/john/password.lst
+Proceeding with incremental:ASCII
+973a             (?)     
+1g 0:00:00:04 DONE 3/3 (2024-08-01 06:07) 0.2336g/s 19709Kp/s 19709Kc/s 19709KC/s 977k..97ez
+Use the "--show --format=Raw-MD5" options to display all of the cracked passwords reliably
+Session completed.
+```
+
+### 步驟三：執行 `level4.py`
 執行 `level4.py` 並輸入密碼 `973a` 就可以得到 flag
 ```bash
 ┌──(kali㉿kali)-[~/Downloads]
@@ -91,3 +113,19 @@ picoCTF{fl45h_5pr1ng1ng_ae0fb77c}
 ```text
 picoCTF{fl45h_5pr1ng1ng_ae0fb77c}
 ```
+
+# 相關學習資源
+### bin 檔案檢視
+- **工具**
+  - [xxd](../Info/xxd.md)  
+  - [hexdump](../Info/hexdump.md)  
+  - [bvi](../Info/bvi.md)  
+
+- **網站**
+  - [HexEdit](https://hexed.it/)  
+### md5 hash 破解
+- **工具**
+  - [John The Ripper](../Info/John%20the%20Ripper.md)  
+
+- **網站**
+  - [Crack Station](https://crackstation.net/)  
