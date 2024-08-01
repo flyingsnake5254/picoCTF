@@ -6,7 +6,7 @@ Can you read files in the root file? The system admin has provisioned an account
 ```bash
 ssh -p 60683 picoplayer@saturn.picoctf.net
 ```
-接著使用 `sudo -l` 查看目前這個 user 有權執行的命令
+接著使用 `sudo -l` 查看目前這個 user 可用的 sudo 命令
 ```bash
 picoplayer@challenge:~$ sudo -l
 [sudo] password for picoplayer: 
@@ -17,7 +17,7 @@ Matching Defaults entries for picoplayer on challenge:
 User picoplayer may run the following commands on challenge:
     (ALL) /usr/bin/vi
 ```
-發現可以對 `challenge` 使用 `/usr/bin/vi`，先 `cd` 前往根目錄，並 `ls` 列出所有檔案
+發現可以對 `challenge` 使用 `sudo /usr/bin/vi`，先 `cd` 前往根目錄，並 `ls` 列出所有檔案
 ```bash
 picoplayer@challenge:~$ cd /
 picoplayer@challenge:/$ ls 
@@ -59,3 +59,6 @@ sudo /usr/bin/vi challenge/metadata.json
 ```text
 picoCTF{uS1ng_v1m_3dit0r_55878b51}
 ```
+
+# 相關學習資源
+[sudo](../Info/sudo.md)  
