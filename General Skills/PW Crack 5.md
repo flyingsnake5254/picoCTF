@@ -19,7 +19,7 @@ picoCTF{h45h_sl1ng1ng_36e992a6}
 
 # 解題（方法2：使用工具）
 ### 步驟一：檢視二進位 bin 檔案
-可以使用 [xxd](../Info/xxd.md)、[hexdump](../Info/hexdump.md)、[bvi](../Info/bvi.md)，擇一即可，以下示範使用 xxd、hexdump
+可以使用 [xxd](../Info/xxd.md)、[hexdump](../Info/hexdump.md)、[bvi](../Info/bvi.md)，擇一即可，以下示範使用 `hexdump`
 ```bash
 # 使用 hexdump
 ┌──(kali㉿kali)-[~/Downloads]
@@ -27,10 +27,9 @@ picoCTF{h45h_sl1ng1ng_36e992a6}
 0000000 3612 dd50 6005 7958 b318 71d7 0ccf 7101
 0000010
 
-# 使用 xxd
+# 將 hash 存到 hash.txt
 ┌──(kali㉿kali)-[~/Downloads]
-└─$ xxd level5.hash.bin 
-00000000: 1236 50dd 0560 5879 18b3 d771 cf0c 0171  .6P..`Xy...q...q
+└─$ echo "123650dd0560587918b3d771cf0c0171" > hash.txt
 ```
 
 ### 步驟二：破解 md5 hash
